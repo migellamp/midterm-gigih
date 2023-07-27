@@ -3,7 +3,7 @@
   <h1 align="center">Mid Term Project</h1>
 
   <p align="center">
-    Complete project Tokopedia Play Clone (Backend Only) with Node.JS and MongoDB
+     Tokopedia Play Clone Project (Backend Only) with Node.JS and MongoDB
   </p>
 </div>
 
