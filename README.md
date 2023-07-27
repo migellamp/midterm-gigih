@@ -1,4 +1,27 @@
-# Mid Term Project -  Tokopedia Play Clone (Backend Only)
+
+<div align="center">
+  <h1 align="center">Mid Term Project</h1>
+
+  <p align="center">
+    Complete project Tokopedia Play Clone (Backend Only) with Node.JS and MongoDB
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#database-collection">Database Collection</a>
+    </li>
+        <li>
+      <a href="#api-structures">API Structures</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+  </ol>
+</details>
 
 ## Database Collection
 ### video
@@ -153,13 +176,13 @@
 * **URL Params**  
   None
 * **Data Params**  
-```
-  {
-    username: string,
-    comment: string,
-    videoId: string
-  }
-```
+  ```
+    {
+      username: string,
+      comment: string,
+      videoId: string
+    }
+  ```
 * **Headers**  
   ```
       "Access-Control-Allow-Headers",
@@ -190,3 +213,42 @@
   }
   ```
   
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+To start project, just clone this repo or [Use this template](https://github.com/migellamp/midterm-gigih/generate)
+
+### Prerequisites
+
+Before installation, make sure you have the following prerequisites
+
+-   NPM
+    ```sh
+    npm install npm@latest -g
+    ```
+-   Postgresql server
+
+### Installation
+
+1. Clone the repo or simply select [Use this template](https://github.com/migellamp/midterm-gigih/generate)
+    ```sh
+    git clone https://github.com/migellamp/midterm-gigih.git
+    ```
+2. Install NPM packages
+    ```sh
+    npm install
+    ```
+3. Create `.env` file in main directory
+4. Insert database mongodb url and PORT to `.env` file
+   ```
+   DATABASE_URL=mongodb://127.0.0.1:27017/tokopediaplay
+   PORT=3005
+   ```
+5. Run the server
+    ```sh
+    npm run start
+    ```
+6. Insert data first to database, before testing it!
+
+<p align="right">(<a href="#top">back to top</a>)</p>
